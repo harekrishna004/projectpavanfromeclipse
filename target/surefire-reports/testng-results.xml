@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-06T12:21:08 IST" name="Suite" finished-at="2021-07-06T12:21:42 IST" duration-ms="34360">
+    <groups>
+      <group name="smoke">
+        <method signature="ActionsTest.demo()[pri:0, instance:practice.ActionsTest@45ac5f9b]" name="demo" class="practice.ActionsTest"/>
+        <method signature="ActionsTest.fileUploadDemo()[pri:0, instance:practice.ActionsTest@45ac5f9b]" name="fileUploadDemo" class="practice.ActionsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-07-06T12:21:08 IST" name="validating Alert" finished-at="2021-07-06T12:21:29 IST" duration-ms="21390">
+      <class name="practice.AlertPracticeTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.AlertPracticeTest@27e47833]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:23 IST" duration-ms="15116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="alertDemo()[pri:0, instance:practice.AlertPracticeTest@27e47833]" started-at="2021-07-06T12:21:23 IST" name="alertDemo" finished-at="2021-07-06T12:21:26 IST" duration-ms="2690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.AlertPracticeTest@27e47833]" started-at="2021-07-06T12:21:26 IST" name="tearDown" finished-at="2021-07-06T12:21:29 IST" duration-ms="3554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.AlertPracticeTest -->
+    </test> <!-- validating Alert -->
+    <test started-at="2021-07-06T12:21:08 IST" name="validating DropDown" finished-at="2021-07-06T12:21:29 IST" duration-ms="21030">
+      <class name="practice.DropDownTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.DropDownTest@2b9ed6da]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:22 IST" duration-ms="13901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="dropDownDemo()[pri:0, instance:practice.DropDownTest@2b9ed6da]" started-at="2021-07-06T12:21:22 IST" name="dropDownDemo" finished-at="2021-07-06T12:21:23 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.DropDownTest@2b9ed6da]" started-at="2021-07-06T12:21:23 IST" name="tearDown" finished-at="2021-07-06T12:21:29 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.DropDownTest -->
+    </test> <!-- validating DropDown -->
+    <test started-at="2021-07-06T12:21:08 IST" name="validating WebTable" finished-at="2021-07-06T12:21:29 IST" duration-ms="21246">
+      <class name="practice.WebTableTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.WebTableTest@34f6515b]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:22 IST" duration-ms="14459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="alertDemo()[pri:0, instance:practice.WebTableTest@34f6515b]" started-at="2021-07-06T12:21:22 IST" name="alertDemo" finished-at="2021-07-06T12:21:27 IST" duration-ms="4529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.WebTableTest@34f6515b]" started-at="2021-07-06T12:21:27 IST" name="tearDown" finished-at="2021-07-06T12:21:29 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.WebTableTest -->
+    </test> <!-- validating WebTable -->
+    <test started-at="2021-07-06T12:21:08 IST" name="validating ActionEvents" finished-at="2021-07-06T12:21:30 IST" duration-ms="21883">
+      <class name="practice.ActionsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.ActionsTest@45ac5f9b]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:22 IST" duration-ms="13861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="demo()[pri:0, instance:practice.ActionsTest@45ac5f9b]" started-at="2021-07-06T12:21:22 IST" name="demo" finished-at="2021-07-06T12:21:22 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="fileUploadDemo()[pri:0, instance:practice.ActionsTest@45ac5f9b]" started-at="2021-07-06T12:21:22 IST" name="fileUploadDemo" finished-at="2021-07-06T12:21:28 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.ActionsTest@45ac5f9b]" started-at="2021-07-06T12:21:28 IST" name="tearDown" finished-at="2021-07-06T12:21:30 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.ActionsTest -->
+    </test> <!-- validating ActionEvents -->
+    <test started-at="2021-07-06T12:21:08 IST" name="validating calendar" finished-at="2021-07-06T12:21:32 IST" duration-ms="23933">
+      <class name="practice.DatePickerTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.DatePickerTest@379614be]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:23 IST" duration-ms="15119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="date()[pri:0, instance:practice.DatePickerTest@379614be]" started-at="2021-07-06T12:21:23 IST" name="date" finished-at="2021-07-06T12:21:32 IST" duration-ms="8551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.DatePickerTest@379614be]" started-at="2021-07-06T12:21:32 IST" name="tearDown" finished-at="2021-07-06T12:21:32 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.DatePickerTest -->
+    </test> <!-- validating calendar -->
+    <test started-at="2021-07-06T12:21:08 IST" name="validating Multiple Windows" finished-at="2021-07-06T12:21:32 IST" duration-ms="24188">
+      <class name="practice.HomePageWindowsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.HomePageWindowsTest@11d8ae8b]" started-at="2021-07-06T12:21:08 IST" name="initialize" finished-at="2021-07-06T12:21:23 IST" duration-ms="15101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="windowsMultiple()[pri:0, instance:practice.HomePageWindowsTest@11d8ae8b]" started-at="2021-07-06T12:21:23 IST" name="windowsMultiple" finished-at="2021-07-06T12:21:32 IST" duration-ms="8946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsMultiple -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.HomePageWindowsTest@11d8ae8b]" started-at="2021-07-06T12:21:32 IST" name="tearDown" finished-at="2021-07-06T12:21:32 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.HomePageWindowsTest -->
+    </test> <!-- validating Multiple Windows -->
+    <test started-at="2021-07-06T12:21:30 IST" name="validating Slider" finished-at="2021-07-06T12:21:42 IST" duration-ms="12586">
+      <class name="practice.SliderTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:practice.SliderTest@5495333e]" started-at="2021-07-06T12:21:30 IST" name="initialize" finished-at="2021-07-06T12:21:42 IST" duration-ms="11947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="slideDemo()[pri:0, instance:practice.SliderTest@5495333e]" started-at="2021-07-06T12:21:42 IST" name="slideDemo" finished-at="2021-07-06T12:21:42 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideDemo -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:practice.SliderTest@5495333e]" started-at="2021-07-06T12:21:42 IST" name="TearDown" finished-at="2021-07-06T12:21:42 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- practice.SliderTest -->
+    </test> <!-- validating Slider -->
+  </suite> <!-- Suite -->
+</testng-results>
